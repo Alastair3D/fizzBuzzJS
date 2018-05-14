@@ -33,4 +33,8 @@ describe("FizzBuzz", function() {
     expect(fizzBuzz.play(15)).toEqual('fizzbuzz');
   });
 
+  it("should be able to print 'fizzbuzz' when given the number thirty", function() {
+    expect(fizzBuzz.play(30)).toEqual('fizzbuzz');
+  });
+
 });
