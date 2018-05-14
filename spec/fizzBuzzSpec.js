@@ -37,4 +37,8 @@ describe("FizzBuzz", function() {
     expect(fizzBuzz.play(30)).toEqual('fizzbuzz');
   });
 
+  it("when printing 1-100, three should be replaced with 'fizz'", function() {
+    expect(fizzBuzz.print()[2]).toEqual('fizz');
+  });
+
 });
