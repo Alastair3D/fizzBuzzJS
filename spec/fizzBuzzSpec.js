@@ -10,7 +10,10 @@ describe("FizzBuzz", function() {
   });
 
   it("should be able to print the number two", function() {
-    expect(fizzBuzz.play(2).toEqual(2));
+    expect(fizzBuzz.play(2)).toEqual(2);
   });
 
+  it("should be able to print 'fizz' when given the number three", function() {
+    expect(fizzBuzz.play(3)).toEqual('fizz');
+  })
 });
