@@ -17,16 +17,20 @@ describe("FizzBuzz", function() {
     expect(fizzBuzz.play(3)).toEqual('fizz');
   });
 
+  it("should be able to print 'fizz' when given the number six", function() {
+    expect(fizzBuzz.play(6)).toEqual('fizz')
+  });
+
   it("should be able to print 'buzz' when given the number five", function() {
     expect(fizzBuzz.play(5)).toEqual('buzz');
   });
 
-  it("should be able to print 'fizzbuzz' when given the number fifteen", function() {
-    expect(fizzBuzz.play(15)).toEqual('fizzbuzz');
+  it("should be able to print 'buzz' when given the number ten", function() {
+    expect(fizzBuzz.play(10)).toEqual('buzz');
   });
 
-  it("should be able to print 'fizz' when given the number six", function() {
-    expect(fizzBuzz.play(6)).toEqual('fizz')
+  it("should be able to print 'fizzbuzz' when given the number fifteen", function() {
+    expect(fizzBuzz.play(15)).toEqual('fizzbuzz');
   });
 
 });
