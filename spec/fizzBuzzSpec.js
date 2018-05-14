@@ -16,4 +16,8 @@ describe("FizzBuzz", function() {
   it("should be able to print 'fizz' when given the number three", function() {
     expect(fizzBuzz.play(3)).toEqual('fizz');
   })
+
+  it("should be able to print 'buzz' when given the number five", function() {
+    expect(fizzBuzz.play(5)).toEqual('buzz');
+  });
 });
