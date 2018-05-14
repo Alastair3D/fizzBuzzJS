@@ -41,4 +41,24 @@ describe("FizzBuzz", function() {
     expect(fizzBuzz.print()[2]).toEqual('fizz');
   });
 
+  it("when printing 1-100, three should be replaced with 'fizz'", function() {
+    expect(fizzBuzz.print()[5]).toEqual('fizz');
+  });
+
+  it("when printing 1-100, three should be replaced with 'fizz'", function() {
+    expect(fizzBuzz.print()[4]).toEqual('buzz');
+  });
+
+  it("when printing 1-100, three should be replaced with 'fizz'", function() {
+    expect(fizzBuzz.print()[9]).toEqual('buzz');
+  });
+
+  it("when printing 1-100, three should be replaced with 'fizz'", function() {
+    expect(fizzBuzz.print()[14]).toEqual('fizzbuzz');
+  });
+
+  it("when printing 1-100, three should be replaced with 'fizz'", function() {
+    expect(fizzBuzz.print()[29]).toEqual('fizzbuzz');
+  });
+
 });

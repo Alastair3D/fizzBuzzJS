@@ -12,3 +12,11 @@ FizzBuzz.prototype.play = function(num) {
     return num;
   };
 };
+
+FizzBuzz.prototype.print = function() {
+  var arr = [];
+  for (var i = 0; i < 100; i++) {
+    arr[i] = this.play(i + 1);
+  };
+  return arr
+};
